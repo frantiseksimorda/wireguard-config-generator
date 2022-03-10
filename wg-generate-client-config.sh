@@ -17,7 +17,7 @@ fi
 
 if [ $# -eq 0 ]
   then
-    echo "No arguments supplied usage: wg-setup-client.sh client_name desired_ipaddress # example desired_ipaddress=10.20.0.1"
+    echo "No arguments supplied usage: wg-generate-client-config.sh client_name desired_ipaddress # example desired_ipaddress=10.20.0.1"
     exit 1
 else
     cd /etc/wireguard/keys/
